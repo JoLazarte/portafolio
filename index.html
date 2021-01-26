@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5f812df695.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header cap">
+        <nav class="nav">
+            <!-- cada li tiene que tener un href a la sección correspondiente -->
+            <ul class="botones-inicio">
+                <li class="icono espacio">HOLA</li>
+                <li class="icono espacio">CONOCIMIENTOS</li>
+                <li class="icono espacio">PROYECTOS</li>
+                <li class="icono botonverde">CONTACTO</li>    
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="seccion principal">
+            <div class="portada">
+                <div class="personal">
+                    <h2 class="titulo saludo">¡Hola! Mi nombre es</h2>
+                    <h1 class="titulo nombre">Joanna Lazarte</h1>
+                    <p>Soy traductora, desarrolladora Frontend y amo la literatura fantástica.</p>
+                <!-- el boton tiene que tener un href hacia PROYECTOS -->
+                    <p class="cap icono botonverde">LO QUE HAGO</p>
+                </div>
+                <div class="imagen">
+                   <img class="img-portada" src="./imágenes/undraw_coolness_dtmq.png" alt="portada">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion conocimientos">
+
+            <h2 class="cap conocimientos titulo-medio">Mis conocimientos</h2>
+            <div class="contenedor-texto conocimientos">
+                <p class="texto conocimientos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus obcaecati nemo voluptatem quas illum numquam nisi suscipit, cupiditate facere earum cum amet veritatis velit odit ratione facilis repudiandae voluptate eius?</p>
+            </div>
+            <div class="grid card">
+                <div class="cap logo">
+                    <i class="fab fa-html5 html tamanio-logo"></i>
+                    HTML
+                </div>
+                <div class="cap logo">
+                    <i class="fab fa-css3-alt css tamanio-logo"></i>
+                    CSS
+                </div>
+                <div class="cap logo">
+                    <i class="fab fa-js js tamanio-logo"></i>
+                    JS
+                </div>
+                <div class="cap logo">
+                    <i class="fab fa-sass sass tamanio-logo"></i>
+                    SASS
+                </div>
+                <div class="cap logo">
+                    <i class="fab fa-github git tamanio-logo"></i>
+                    GIT HUB</div>
+                <div class="cap logo">
+                    <i class="fab fa-react react tamanio-logo"></i>
+                    REACT</div>
+            </div>
+
+        </section>
+        
+        <section class="articulo">
+            <article>
+                <div class="contenedor-texto articulo">
+                    <div>
+                        <i class="fas fa-quote-right signo articulo"></i>
+                    </div>
+                    <div>
+                        <p class="texto articulo"> Programar tiene como finalidad resolver problemas y mejorar nuestra vida, tener la posibilidad de contribuir colaborativamente para que estas cosas sucedan... es mi motivación!</p>
+                    </div>
+                </div>    
+            </article>
+        </section>
+
+        <section class="proyectos">
+            <h2 class="cap titulo-medio">
+                MIS PROYECTOS
+            </h2>
+            <div class="contenedor-texto">
+                <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus obcaecati nemo voluptatem quas illum numquam nisi suscipit, cupiditate facere earum cum amet veritatis velit odit ratione facilis repudiandae voluptate eius?</p>
+            </div>
+            <div class="grid2 card">
+                <div class="proy">
+                        <img class="img-proy" src="./imágenes/undraw_coolness_dtmq.png" alt="">
+                        <p class="titulo inferior">Portfolio</p>
+                </div>
+
+                <div class="proy">
+                    <img class="img-proy" src="./imágenes/undraw_buffer_wq43-removebg-preview.png" alt="">
+                    <p class="titulo inferior">Generador de memes</p>
+                </div>
+                <div class="proy">
+                    <img class="img-proy" src="./imágenes/undraw_video_game_night_8h8m-removebg-preview.png" alt="">
+                    <p class="titulo inferior">Match 3</p>
+                </div>
+                <div class="proy">
+                    <img class="img-proy" src="./imágenes/undraw_make_it_rain_iwk4-removebg-preview.png" alt="">
+                    <p class="titulo inferior">Controlador de gastos</p>
+                </div>
+
+                <div class="proy">
+                    <img class="img-proy" src="./imágenes/undraw_organize_resume_utk5-removebg-preview.png" alt="">
+                    <p class="titulo inferior">Administrador de reuniones</p>
+                </div>
+                <div class="proy">
+                    <img class="img-proy" src="./imágenes/undraw_feedback_h2ft-removebg-preview.png" alt="">
+                    <p class="titulo inferior">Todo App</p>
+                </div>
+                <div class="proy">
+                    <img class="img-proy" src="./imágenes/undraw_netflix_q00o-removebg-preview.png" alt="">
+                    <p class="titulo inferior">Buscador de películas</p>
+                </div>
+            </div>
+
+        </section>
+ <!--
+        <section class="contenedor-contacto">
+
+            <div class="contacto">
+
+                <div class="contactame">
+                    <h2 class="titulo">Contactame</h2>
+                    <p class="parrafo margin-top30">Las redes sociales, hoy nos permiten estar más cerca, conocernos y poder interactuar.</p>
+                    <p>Más abajo podés encontrar los enlaces a las redes que habtualmente utilizo, para que podamos estar en contacto!</p>
+
+                    <ul class="margin-top30 lista-redes">
+                        <li class="redes"> <span class="icono-redes"><i class="fab fa-github"></i></span>
+                            Git Hub
+                        </li>
+       
+                        <li class="redes"> <span class="icono-redes"><i class="fab fa-linkedin-in"></i></span>
+                            Linkeding
+                        </li> 
+
+                        <li class="redes"> <span class="icono-redes"><i class="fas fa-envelope"></i></span>
+                            jlazartelagos@gmail.com
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <div>
+                    <h2 class="titulo">Escribime</h2>
+                    <form action=""></form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+         cada li tiene que tener un href a la sección correspondiente
+        <div class="footer">
+            <ul class="cap">
+                <li>HOLA</li>
+                <li>CONOCIMIENTOS</li>
+                <li>PROYECTOS</li>
+                <li>CONTACTO</li>
+            </ul>
+        </div>
+    </footer> 
+-->
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fraunces:wght@300&family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 240, 240);
+    font-family: 'Fraunces', serif;
+    font-size: 18px;  
+}
+
+
+.header{    
+    display: flex;
+    
+}
+
+.cap {
+    font-family: 'Cinzel', serif;
+
+}
+
+.nav{
+    position: fixed;
+    z-index: 1;
+    height: 100px;   
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 20px 0px  rgb(255, 247, 247);
+}
+
+ul{
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.botones-inicio{
+    display: flex;
+    list-style: none;
+    font-size: 8px;
+    font-weight: 400;
+    color: rgb(79, 99, 103);
+}
+.botones-inicio :hover{
+    display: flex;
+    list-style: none;
+    color: rgb(184, 216, 216);
+}
+
+.icono{
+    padding-right: 35px;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding-top: 10px;
+    height: 45px;
+}
+
+.espacio{
+    padding-right: 25px;
+}
+
+.botonverde{
+    background-color:#0A8A2C;
+    border-radius: 30px;
+    padding-left:30px;
+    color: rgb(238, 245, 219); 
+    box-shadow: 0px 0px 20px 0px  rgb(122, 158, 159);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.botonverde:hover{
+    background-color:rgb(238, 245, 219);
+    border-radius: 30px;
+    padding-left:30px;
+    color: rgb(254, 95, 85); 
+    box-shadow: 0px 0px 20px 0px rgb(254, 95, 85);
+}
+
+.seccion{
+    display: flex;
+    align-items: stretch;
+
+}
+@media (max-width: 600px) {
+    .seccion {
+        padding: 80px 20px;
+    }
+}
+
+.principal {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+
+}
+
+.portada {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px;
+    padding-bottom: 60px;
+}
+@media (max-width: 1000px) {
+    .portada {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 240px 30px 90px 10px;
+    width: 450px;
+    height: 250px;
+
+}
+@media (max-width: 1000px) {
+    .personal {
+        align-items: center;
+        text-align: center;
+    }
+}
+.imagen {
+    display: flex;
+    margin: 100px 10px 40px 40px;
+
+}
+.img-portada {
+    width: 560px;
+    height: 400px;
+    margin: 20px;
+
+}
+@media (max-width: 1000px) {
+    .imagen {
+        margin-top: 30px;
+        max-width: 400px;
+    }
+}
+
+.titulo{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.saludo {
+    font-size: 25px;
+}
+.nombre{
+    font-size: 50px;
+    color: #0A8A2C;
+    margin-bottom: 15px;
+}
+
+
+.titulo-medio {
+    
+    margin-top: 120px;
+    padding-bottom: 35px;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.conocimientos{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 235, 235);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    background-color: rgb(250, 235, 235);
+    padding-bottom: 60px;
+
+}
+.card {
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 260px;
+    padding: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: solid 1px rgb(71, 75, 75);
+   
+}
+.logo:hover {
+    border: solid 2px rgb(184, 216, 216);
+    color: #0A8A2C;
+    font-weight: 900;
+
+}
+
+.html{
+    color:rgb(229, 77, 38);
+}
+
+.css{
+    color: rgb(61, 143, 198);
+}
+
+.js{
+    color: rgb(240, 219, 79);
+}
+.sass{
+    color: rgb(204, 102, 153);
+}
+.git{
+    color: rgb(243, 79, 41);
+}
+
+.react{
+    color: aquamarine;
+}
+
+.tamanio-logo{
+    font-size: 90px;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    background-color: #0A8A2C;
+    color: rgb(255, 240, 240);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.signo{
+    font-weight: 900;
+    font-size: 90px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.texto{
+    width: 50vw;
+}
+
+.proyectos {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.proy {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    width: 340px;
+    padding: 40px;
+    border-radius: 10px;
+    border: solid 1px rgb(71, 75, 75);
+   
+}
+.proy:hover {
+    border: solid 2px rgb(184, 216, 216);
+    color: #0A8A2C;
+    font-weight: 900;
+
+}
+.img-proy{
+    width: 260px;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+.inferior {
+    padding: 45px 2px 5px;
+}
+
+.contenedor-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 100px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    border: solid 1px  rgb(184, 216, 216);
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px  rgb(122, 158, 159);
+    font-size: 25px;
+    color:  rgb(79, 99, 103);
+}
+
+.contactame{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30px;
+    font-weight: 300; 
+    line-height: 40px;
+    text-align: justify;
+}
+
+
+.lista-redes{
+    list-style: none;
+    font-weight: 400;
+}
+
+.icono-redes{
+    font-size: 30px;
+    padding-right: 15px;
+    color: rgb(254, 95, 85);
+}
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
