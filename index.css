@@ -8,6 +8,9 @@
     font-family: 'Fraunces', serif;
     font-size: 18px;  
 }
+body {
+    overflow-x: hidden;
+}
 
 
 .header{    
@@ -168,8 +171,7 @@ ul{
 }
 
 .conocimientos{
-    width: 100vw;
-    height: 100%;
+   
     display: flex;
     flex-direction: column;
     background-color: rgb(250, 235, 235);
