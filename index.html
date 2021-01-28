@@ -30,7 +30,7 @@
                 <!-- el boton tiene que tener un href hacia PROYECTOS -->
                     <p class="cap icono botonverde">LO QUE HAGO</p>
                 </div>
-                   <img class="img-portada" src="./imágenes/undraw_coolness_dtmq.png" alt="portada">
+                   <img class="img-portada" src="./imágenes/undraw_step_to_the_sun_nxqq-removebg-preview.png" alt="portada">
         </section>
 
         <section class="conocimientos">
@@ -88,7 +88,7 @@
             </div>
             <div class="grid2 card">
                 <div class="proy">
-                        <img class="img-proy" src="./imágenes/undraw_coolness_dtmq.png" alt="">
+                        <img class="img-proy" src="./imágenes/undraw_step_to_the_sun_nxqq-removebg-preview.png" alt="">
                         <p class="titulo inferior">Portfolio</p>
                 </div>
 
@@ -150,7 +150,59 @@
 
                 <div class="escribime">
                     <h2 class="titulo">Escribime</h2>
-                    <form action=""></form>
+                    <form action="" method="POST">
+                        <div class="form-control">
+                            <label for="firstname">Nombre *</label>
+                            <input type="text" name="Nombre" id="firtsname" 
+                            class="input-firtsname input-control" placeholder="p. ej.: Ada" aria-label="Nombre" required="">
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-control">
+                            <label for="lastname">Apellido *</label>
+                            <input 
+                                type="text" 
+                                name="Apellido" 
+                                id="lastname" 
+                                class="input-lastname input-control" 
+                                placeholder="p. ej.: Lovelace" 
+                                aria-label="Apellido" 
+                                required>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email *</label>
+                            <input 
+                                type="email" 
+                                name="Email" 
+                                id="email" 
+                                class="input-control" 
+                                placeholder="p. ej.: ada.lovelace@gmail.com" 
+                                aria-label="Email" 
+                                required>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Mensaje *</label>
+                            <textarea 
+                                name="Mensaje" 
+                                id="message" 
+                                cols="30" 
+                                rows="10" 
+                                class="input-control" 
+                                placeholder="Escriba un mensaje aquí" 
+                                aria-label="Mensaje" 
+                                required>
+                            </textarea>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <button type="submit" class="contact-send-btn button">
+                            Enviar
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -161,7 +213,7 @@
             <span>HOLA</span>
             <span>CONOCIMIENTOS</span>
             <span>PROYECTOS</span>
-            <span>CONTACTO</span>
+            <span>CONTACTO</>
         </div>
         <div>
             <span><i class="fab fa-twitter icono-redes"></i></span>
