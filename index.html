@@ -36,8 +36,8 @@
         <section class="conocimientos">
 
             <h2 class="cap conocimientos titulo-medio">Mis conocimientos</h2>
-            <div class="contenedor-texto conocimientos">
-                <p class="texto conocimientos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus obcaecati nemo voluptatem quas illum numquam nisi suscipit, cupiditate facere earum cum amet veritatis velit odit ratione facilis repudiandae voluptate eius?</p>
+            <div class="contenedor-texto descripcion">
+                <p class="texto descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus obcaecati nemo voluptatem quas illum numquam nisi suscipit, cupiditate facere earum cum amet veritatis velit odit ratione facilis repudiandae voluptate eius?</p>
             </div>
             <div class="grid card">
                 <div class="cap logo">
@@ -70,10 +70,10 @@
             <article>
                 <div class="contenedor-texto articulo">
                     <div>
-                        <i class="fas fa-quote-right signo articulo"></i>
+                        <i class="fas fa-quote-right signo cita"></i>
                     </div>
                     <div>
-                        <p class="texto articulo"> Programar tiene como finalidad resolver problemas y mejorar nuestra vida, tener la posibilidad de contribuir colaborativamente para que estas cosas sucedan... es mi motivación!</p>
+                        <p class="texto cita"> Programar tiene como finalidad resolver problemas y mejorar nuestra vida, tener la posibilidad de contribuir colaborativamente para que estas cosas sucedan... es mi motivación!</p>
                     </div>
                 </div>    
             </article>
@@ -153,8 +153,14 @@
                     <form action="" method="POST">
                         <div class="form-control">
                             <label for="firstname">Nombre *</label>
-                            <input type="text" name="Nombre" id="firtsname" 
-                            class="input-firtsname input-control" placeholder="p. ej.: Ada" aria-label="Nombre" required="">
+                            <input 
+                                type="text" 
+                                name="Nombre" 
+                                id="firtsname" 
+                                class="input-firtsname input-control" 
+                                placeholder="p. ej.: Ada" 
+                                aria-label="Nombre" 
+                                required>
                             <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
                             <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
                         </div>
@@ -208,18 +214,23 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="cap">
-            <span>HOLA</span>
-            <span>CONOCIMIENTOS</span>
-            <span>PROYECTOS</span>
-            <span>CONTACTO</>
+    <footer>
+        <div class="cap final">
+            <span class="span-f">HOLA</span>
+            <span class="span-f">CONOCIMIENTOS</span>
+            <span class="span-f">PROYECTOS</span>
+            <span class="span-f">CONTACTO</span>
         </div>
-        <div>
-            <span><i class="fab fa-twitter icono-redes"></i></span>
-            <span><i class="fab fa-github-alt icono-redes"></i></span>
-            <span><i class="fab fa-linkedin-in icono-redes"></i></span>
-            <span><i class="fas fa-envelope icono-redes"></i></span>
+        <div class="final">
+            <span><i class="fab fa-twitter icono-final"></i></span>
+            <span><i class="fab fa-github-alt icono-final"></i></span>
+            <span><i class="fab fa-linkedin-in icono-final"></i></span>
+            <span><i class="fas fa-envelope icono-final"></i></span>
+        </div>
+        <div class="final">
+            <span><i class="fas fa-horse-head" id="firma"></i></span>
+            <span>Jo Lazarte</span> 
+            <span><i class="fas fa-moon" id="firma"></i></span>
         </div>
     </footer> 
 </body>
