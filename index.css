@@ -15,6 +15,7 @@
     overflow-x: hidden;
 
 }*/
+
 article, body footer{
     box-shadow: inset -10px 0px 35px #045319;
 
@@ -69,7 +70,7 @@ header {
 }
 
 .botonverde:hover{
-    background-color:rgb(255, 247, 247);
+    background-color: rgb(245, 232, 230);
     color: #0A8A2C; 
 }
 
@@ -80,6 +81,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 40px 0px;
+
 
 
 }
@@ -135,7 +137,11 @@ header {
     margin-bottom: 15px;
 }
 
-
+.font45 {
+    font-size: 45px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
 .titulo-medio {
     
     margin-top: 120px;
@@ -163,11 +169,11 @@ header {
     margin: 60px;
     background-color: rgb(250, 235, 235);
     padding-bottom: 60px;
-
 }
 .card {
     justify-content: center;
 }
+
 .logo{
     display: flex;
     flex-direction: column;
@@ -324,7 +330,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 60px 40px;
+    padding: 80px 40px;
+    width: 500px;
     border-top-left-radius: 8%;
     border-bottom-left-radius: 8%;
 
@@ -332,6 +339,7 @@ header {
 @media (max-width: 1000px) {
     .contactame {
         border-top-right-radius: 8%;
+        width: 380px;
     }
 }
 
@@ -342,11 +350,23 @@ header {
 .redes {
     line-height: 2.5;
 }
+.redes:hover {
+    color: #0A8A2C;
+
+}
 
 .icono-redes{
     font-size: 18px;
-    padding-right: 15px;
+    padding-right: 18px;
     color: #0A8A2C;
+}
+.icono-redes:hover {
+    color: rgb(245, 232, 230);
+    background-color: #0A8A2C; 
+    border-radius: 50%;
+    border: #0A8A2C solid 1px;
+    padding: 7px;
+    margin-right: 8px;
 }
 .escribime {
     display: flex;
@@ -355,7 +375,7 @@ header {
     padding: 60px 40px;
     border-top-right-radius: 8%;
     border-bottom-right-radius: 8%;
-
+    width: 500px;
 
 }
 
@@ -364,7 +384,7 @@ header {
         margin-top: 0px;
         padding-top: 0px;
         border-bottom-left-radius: 8%;
-
+        width: 380px;
     }
 }
 /* Revisar */
