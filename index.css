@@ -7,7 +7,7 @@
     background-color: rgb(255, 240, 240);
     font-family: 'Fraunces', serif;
     font-size: 18px;  
-    box-shadow: inset -10px 0 35px rgb(33, 167, 15);
+    /*box-shadow: inset -10px 0 35px rgb(33, 167, 15);*/
 
 }
 
@@ -463,8 +463,8 @@ input,
 textarea {
   border: 0;
   border-radius: 20px;
-  background-color: #f6f7fb;
-  border: 1px solid #f6f7fb;
+  background-color: #f6fff8;
+  border: 1px solid #f6fff8;
   font-size: var(--text-sm);
   padding: 10px 15px;
   display: block;
@@ -477,18 +477,22 @@ input:focus,
 textarea:focus,
 button:focus,
 a:focus {
-    box-shadow: 0px 0px 7px #8338ec;
+    box-shadow: 0px 0px 7px #0A8A2C;
     outline: 0;
 }
   
   
 button {
     border: 0;
-    background-color: transparent;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-    color: #2e2e31;
+    background-color:#0A8A2C;
+    border-radius: 30px;
+    color: rgb(245, 232, 230); 
+    font-weight: 200;
+    font-family: 'Cinzel', serif;
+    padding: 10px 25px;
+    font-size: 20px;
     cursor: pointer;
+
 }
 .button {
     transition: 0.2s;
@@ -521,22 +525,22 @@ label {
 
 input:valid:focus,
 textarea:valid:focus {
-  box-shadow: 0px 0px 5px #88c459;
+  box-shadow: 0px 0px 5px #56c9d1;
 }
 
 input:invalid:not(:placeholder-shown):focus,
 textarea:invalid:not(:placeholder-shown):focus {
-  box-shadow: 0px 0px 5px #f5414f;
+  box-shadow: 0px 0px 5px #db303f;
 }
 
 input:invalid:not(:placeholder-shown),
 textarea:invalid:not(:placeholder-shown) {
-  border: 1px solid #f5414f;
+  border: 1px solid #db303f;
 }
 
 input:valid,
 textarea:valid {
-  border: 1px solid #88c459;
+  border: 1px solid #56c9d1;
 }
 
 .icon-invalid,
@@ -549,11 +553,11 @@ textarea:valid {
 }
 
 .icon-valid {
-  color: #88c459;
+  color: #56c9d1;
 }
 
 .icon-invalid {
-  color: #f5414f;
+  color: #db303f;
 }
 
 input:valid ~ .icon-valid,
