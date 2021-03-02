@@ -57,9 +57,6 @@ header {
 }
 
 .botones-inicio{
-    /*display: flex;
-    flex-direction: row;
-    align-items: flex-start;*/
     font-family: 'Fraunces', serif;
     font-size: 16px; 
     font-weight: 200;
@@ -70,6 +67,10 @@ header {
 
 .botones-inicio span {
     margin-right: 35px;
+}
+.menu {
+    cursor: pointer;
+    transition: 0.2s;
 }
 .menu a:hover {
     color: #0A8A2C;
@@ -85,7 +86,7 @@ a {
     color: #0A8A2C;
     border-radius: 30px;
     padding: 8px 10px;
-    outline: none;
+    outline: 0;
 }
 
 .botonverde{
@@ -492,7 +493,7 @@ a {
         width: 100%;
     }
 }
-/* Revisar */
+
 input,
 textarea {
   border: 0;
@@ -507,9 +508,9 @@ textarea {
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: 0.2s;
 }
+
 input:focus,
-textarea:focus,
-button:focus {
+textarea:focus, button:focus {
     box-shadow: 0px 0px 7px #0A8A2C;
     outline: 0;
 }
@@ -526,27 +527,14 @@ button:focus {
     flex-direction: row;
     justify-content: space-between;
 }  
-
-/*
-.input-name-wrapper {
-    display: flex;
-}
-*/ 
-
-/* 
-.input-name-wrapper .form-control:nth-of-type(1) {
-    margin-right: 10px;
-}
   
-.input-name-wrapper .form-control:nth-of-type(2) {
-    margin-left: 10px;
-}
-*/ 
 label {
     margin-bottom: 10px;
     display: block;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 18px;
     margin-top: 5px;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 input:valid,
@@ -554,8 +542,8 @@ textarea:valid {
   border: 1px solid #56c9d1;
 }
 
-input .icon-valid:valid:focus,
-textarea .icon-valid:valid:focus {
+input:valid:focus,
+textarea:valid:focus {
   box-shadow: 0px 0px 5px #56c9d1;
 }
 
@@ -569,25 +557,6 @@ textarea:invalid:not(:placeholder-shown):focus {
   box-shadow: 0px 0px 5px #db303f;
 }
 
-.icon-invalid,
-.icon-valid {
-  display: none;
-  position: absolute;
-  background-color: #f6fff8;
-  bottom: 20px;
-  right: 20px;
-  transform: translateY(50%);
-}
-
-.icon-valid{
-  color: #56c9d1;
-}
-
-.icon-invalid{
-  color: #db303f;
-}
-
-
 button {
     border: 0;
     background-color:#0A8A2C;
@@ -598,12 +567,9 @@ button {
     padding: 10px 25px;
     font-size: 20px;
     cursor: pointer;
-
-}
-.button {
     transition: 0.2s;
 }
-/* Hasta aquí */
+
 footer {
     width: 100%;
     display: flex;

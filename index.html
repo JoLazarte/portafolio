@@ -11,7 +11,6 @@
 <body>
     <header>
         <nav class="nav">
-            <!-- cada li tiene que tener un href a la sección correspondiente -->
             <div class="botones-inicio">
                 <span class="menu"><a href="#hola">HOLA</a></span>
                 <span class="menu"><a href="#conocimientos">CONOCIMIENTOS</a></span>
@@ -29,7 +28,6 @@
                     <h2 class="titulo saludo">¡Hola! Mi nombre es</h2>
                     <h1 class="titulo nombre">Joanna Lazarte</h1>
                     <p>Soy traductora, desarrolladora Frontend y amo la literatura fantástica.</p>
-                <!-- el boton tiene que tener un href hacia PROYECTOS -->
                     <p class="cap"><a class="botonverde" href="#proyectos">LO QUE HAGO</a></p>
                 </div>
                    <img class="img-portada" src="./imágenes/undraw_step_to_the_sun_nxqq-removebg-preview.png" alt="portada">
@@ -164,10 +162,6 @@
                         redes sociales que uso para que 
                         podamos estar en contacto.
                     </p>
-                    <p>
-                        
-                    </p>
-
                     <ul class="lista-redes">
                         <li><a class="redes" href="index.html#portfolio"><i class="fab fa-twitter icono-redes"></i>
                             Twitter</a>
@@ -200,8 +194,6 @@
                                     placeholder="p. ej.: Joanna" 
                                     aria-label="Nombre" 
                                     required>
-                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i> 
-                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
                             </div>
                             <div class="form-control">
                                 <label for="lastname">Apellido *</label>
@@ -213,8 +205,6 @@
                                     placeholder="p. ej.: Lazarte" 
                                     aria-label="Apellido" 
                                     required>
-                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
-                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
                             </div>
                         </div>
                         <div class="form-control">
@@ -227,9 +217,7 @@
                                 placeholder="p. ej.: nombre@gmail.com" 
                                 aria-label="Email" 
                                 required>
-                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
-                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
-                        </div>
+                            </div>
                         <div class="form-control">
                             <label for="message">Mensaje *</label>
                             <textarea 
@@ -242,10 +230,8 @@
                                 aria-label="Mensaje" 
                                 required>
                             </textarea>
-                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
-                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
                         </div>
-                        <button type="submit" class="contact-send-btn button">
+                        <button type="submit" class="contact-send-btn">
                             Enviar
                         </button>
                     </form>
